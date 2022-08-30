@@ -18,7 +18,7 @@
                         <span>{{item.title}}</span>
                         <div class="content"> {{item.contentDesc}}</div> 
                     <div class="footerWith">
-                        <el-button type="success" @click="getIndex(item)">详细</el-button>
+                        <el-button type="text" @click="getIndex(item)">详细</el-button>
                     </div>
                     </el-card>
                 </li>
@@ -237,6 +237,7 @@ export default {
   }
   .footerWith{
       position: absolute;
+      right:0px;
       bottom: 0px;
       min-height: 30px;
       margin: 10px;

@@ -75,7 +75,7 @@ export default {
     margin:0;
   }
   .withNode{
-    width: 800px;
+    width: 1200px;
     height: 620px;
     min-height: 610px;
     margin: 0 auto;
